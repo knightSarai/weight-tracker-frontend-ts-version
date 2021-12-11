@@ -24,5 +24,6 @@ module.exports = {
     "testing-library/render-result-naming-convention": "off",
     "@typescript-eslint/unbound-method": "off",
     "react/display-name": "off",
+    "react/no-unescaped-entities": "off"
   },
 };

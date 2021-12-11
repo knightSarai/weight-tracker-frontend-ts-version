@@ -10,10 +10,14 @@ export default function Navbar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Weight Tracker
+          <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
+            <Button href="/" size="large" color="inherit">
+              Weight Tracker
+            </Button>
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button href="/auth/login" color="inherit">
+            Login
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>

@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Head from 'next/head';
+import Container from '@mui/material/Container';
 
 interface IProps {
   children: React.ReactNode;
@@ -15,7 +16,9 @@ const Layout: React.FC<IProps> = (props) => {
         <title>{title}</title>
       </Head>
       <Navbar />
-      {children}
+      <Container maxWidth="md" sx={{ marginTop: '20px' }}>
+        {children}
+      </Container>
     </>
   );
 };
