@@ -19,5 +19,10 @@ module.exports = {
     ecmaVersion: 13,
     sourceType: "module",
   },
-  rules: {},
+  rules: {
+    "@typescript-eslint/no-unsafe-assignment": "off",
+    "testing-library/render-result-naming-convention": "off",
+    "@typescript-eslint/unbound-method": "off",
+    "react/display-name": "off",
+  },
 };
