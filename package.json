@@ -16,6 +16,7 @@
     "@emotion/server": "latest",
     "@emotion/styled": "latest",
     "@mui/icons-material": "^5.2.1",
+    "@mui/lab": "^5.0.0-alpha.59",
     "@mui/material": "latest",
     "chart.js": "^3.6.2",
     "clsx": "latest",
