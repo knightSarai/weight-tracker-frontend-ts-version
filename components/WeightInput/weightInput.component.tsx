@@ -6,6 +6,7 @@ export default function WeightInput() {
       sx={{ width: '140px' }}
       label="Weight Input"
       id="weight-input"
+      type="number"
     />
   );
 }
